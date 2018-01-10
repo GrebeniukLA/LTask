@@ -14,7 +14,7 @@ protocol FirstConfigurator {
 class FirstConfiguratorImplementation: FirstConfigurator {
     func configure(controller: FirstViewController) {
         let router = FirstRouterImplementation(viewController: controller)
-        let firstService = FirstServiceImplementation()
+        let firstService = MainServiceImplementation()
         let coreDataService = CoreDataServiceImplementation()
         let locationManager = LocationManagerImplementation.sharedManager
         let interactor = FirstInteractorImplementation(firstService: firstService, locationManager: locationManager, coreDataService: coreDataService)

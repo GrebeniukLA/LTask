@@ -15,7 +15,7 @@ class FirstRequestBuilder: RequestBuilderProtocol {
         return .get
     }
     var path: URLConvertible? {
-        return FirstServiceImplementation.Constants.baseServiceURL + "forecast"
+        return MainServiceImplementation.Constants.baseServiceURL + "forecast"
     }
     var parameters: Parameters? {
         return nil

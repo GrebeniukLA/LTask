@@ -16,7 +16,7 @@ class SecondRequestBuilder: RequestBuilderProtocol {
         return .get
     }
     var path: URLConvertible? {
-        return FirstServiceImplementation.Constants.baseServiceURL + "weather"
+        return MainServiceImplementation.Constants.baseServiceURL + "weather"
     }
     var parameters: Parameters? {
         return nil

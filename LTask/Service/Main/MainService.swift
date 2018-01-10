@@ -9,12 +9,12 @@
 import Foundation
 import CoreLocation
 
-protocol FirstService {
+protocol MainService {
     func getForecastWeather(location: CLLocation, success:@escaping Success, failure:@escaping Failure)
     func getCurrentWeather(location: CLLocation, success:@escaping Success, failure:@escaping Failure)
 }
 
-class FirstServiceImplementation: FirstService {
+class MainServiceImplementation: MainService {
     struct Constants {
         static let kAPPID = "6aaa50e44cb76f02ca85089825588d62"
         static let baseServiceURL = "http://api.openweathermap.org/data/2.5/"

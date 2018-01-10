@@ -13,10 +13,10 @@ protocol SecondInteractor {
 }
 
 class SecondInteractorImplementation: SecondInteractor {
-    fileprivate let weatherService: FirstService
+    fileprivate let weatherService: MainService
     fileprivate let locationManager: LocationManager
     
-    init(weatherService: FirstService, locationManager: LocationManager) {
+    init(weatherService: MainService, locationManager: LocationManager) {
         self.weatherService = weatherService
         self.locationManager = locationManager
     }
