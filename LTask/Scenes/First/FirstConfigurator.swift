@@ -13,11 +13,12 @@ protocol FirstConfigurator {
 
 class FirstConfiguratorImplementation: FirstConfigurator {
     func configure(controller: FirstViewController) {
-        let weatherService = FirstServiceImplementation()
+        let router = FirstRouterImplementation(viewController: controller)
+        let firstService = FirstServiceImplementation()
         let coreDataService = CoreDataServiceImplementation()
         let locationManager = LocationManagerImplementation.sharedManager
-        let interactor = FirstInteractorImplementation(weatherService: weatherService, locationManager: locationManager, coreDataService: coreDataService)
-        let presenter = FirstPresenterImplementation(interactor: interactor, view: controller)
+        let interactor = FirstInteractorImplementation(firstService: firstService, locationManager: locationManager, coreDataService: coreDataService)
+        let presenter = FirstPresenterImplementation(interactor: interactor, view: controller, router: router)
         controller.presenter = presenter
     }
 }

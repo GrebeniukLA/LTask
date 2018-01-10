@@ -15,12 +15,12 @@ protocol FirstInteractor {
 }
 
 class FirstInteractorImplementation: NSObject, FirstInteractor {
-    fileprivate let weatherService: FirstService
+    fileprivate let firstService: FirstService
     fileprivate let locationManager: LocationManager
     fileprivate let coreDataService: CoreDataService
     
-    init(weatherService: FirstService, locationManager: LocationManager, coreDataService: CoreDataService) {
-        self.weatherService = weatherService
+    init(firstService: FirstService, locationManager: LocationManager, coreDataService: CoreDataService) {
+        self.firstService = firstService
         self.locationManager = locationManager
         self.coreDataService = coreDataService
     }

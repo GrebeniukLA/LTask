@@ -38,6 +38,9 @@
 		222BADBA20062D07003D91C3 /* SecondInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222BADB920062D07003D91C3 /* SecondInteractor.swift */; };
 		222BADBD20062D2C003D91C3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222BADBB20062D2C003D91C3 /* SecondViewController.swift */; };
 		222BADBE20062D2C003D91C3 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 222BADBC20062D2C003D91C3 /* SecondViewController.xib */; };
+		222BADC020062FA3003D91C3 /* FirstRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222BADBF20062FA3003D91C3 /* FirstRouter.swift */; };
+		222BADC220062FCB003D91C3 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222BADC120062FCB003D91C3 /* ViewRouter.swift */; };
+		222BADC4200631A9003D91C3 /* SecondRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222BADC3200631A9003D91C3 /* SecondRouter.swift */; };
 		652999AEC53B26082A8BBF2F /* Pods_LTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74466DC0E7F593A18273E26F /* Pods_LTask.framework */; };
 /* End PBXBuildFile section */
 
@@ -75,6 +78,9 @@
 		222BADB920062D07003D91C3 /* SecondInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondInteractor.swift; sourceTree = "<group>"; };
 		222BADBB20062D2C003D91C3 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		222BADBC20062D2C003D91C3 /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		222BADBF20062FA3003D91C3 /* FirstRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstRouter.swift; sourceTree = "<group>"; };
+		222BADC120062FCB003D91C3 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		222BADC3200631A9003D91C3 /* SecondRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondRouter.swift; sourceTree = "<group>"; };
 		74466DC0E7F593A18273E26F /* Pods_LTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B78F54E71FFCA3E5CA99306 /* Pods-LTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LTask/Pods-LTask.debug.xcconfig"; sourceTree = "<group>"; };
 		CEE16550929AC86A213157DB /* Pods-LTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-LTask/Pods-LTask.release.xcconfig"; sourceTree = "<group>"; };
@@ -193,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				222BAD82200623AF003D91C3 /* Error.swift */,
+				222BADC120062FCB003D91C3 /* ViewRouter.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -255,6 +262,7 @@
 			children = (
 				222BAD9B2006288A003D91C3 /* FirstConfigurator.swift */,
 				222BADA1200628EB003D91C3 /* FirstInteractor.swift */,
+				222BADBF20062FA3003D91C3 /* FirstRouter.swift */,
 				222BAD9F200628CA003D91C3 /* FirstPresenter.swift */,
 				222BADA320062913003D91C3 /* FirstViewController.swift */,
 				222BADA420062913003D91C3 /* FirstViewController.xib */,
@@ -294,6 +302,7 @@
 			children = (
 				222BADB420062CC9003D91C3 /* SecondConfigurator.swift */,
 				222BADB720062CEF003D91C3 /* SecondPresenter.swift */,
+				222BADC3200631A9003D91C3 /* SecondRouter.swift */,
 				222BADB920062D07003D91C3 /* SecondInteractor.swift */,
 				222BADBB20062D2C003D91C3 /* SecondViewController.swift */,
 				222BADBC20062D2C003D91C3 /* SecondViewController.xib */,
@@ -452,6 +461,7 @@
 				222BADBD20062D2C003D91C3 /* SecondViewController.swift in Sources */,
 				222BAD7F20062332003D91C3 /* UITableViewCell.swift in Sources */,
 				222BAD732006218C003D91C3 /* FirstTableViewCell.swift in Sources */,
+				222BADC020062FA3003D91C3 /* FirstRouter.swift in Sources */,
 				222BAD8D20062691003D91C3 /* NetworkManager.swift in Sources */,
 				222BAD9220062767003D91C3 /* FirstRequestBuilder.swift in Sources */,
 				222BADB520062CC9003D91C3 /* SecondConfigurator.swift in Sources */,
@@ -463,6 +473,8 @@
 				222BADA520062913003D91C3 /* FirstViewController.swift in Sources */,
 				222BAD7C20062301003D91C3 /* UITableView.swift in Sources */,
 				222BAD8620062414003D91C3 /* LocationManager.swift in Sources */,
+				222BADC4200631A9003D91C3 /* SecondRouter.swift in Sources */,
+				222BADC220062FCB003D91C3 /* ViewRouter.swift in Sources */,
 				222BAD8A20062626003D91C3 /* MainService.swift in Sources */,
 				222BAD79200622A3003D91C3 /* Typealias.swift in Sources */,
 				222BAD83200623AF003D91C3 /* Error.swift in Sources */,

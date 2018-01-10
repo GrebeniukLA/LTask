@@ -22,10 +22,12 @@ protocol SecondPresenter {
 class SecondPresenterImplementation: SecondPresenter {
     fileprivate let interactor: SecondInteractor
     fileprivate weak var view: SecondWeatherView?
+    internal let router: SecondRouter
     
-    init(interactor: SecondInteractor, view: SecondWeatherView) {
+    init(interactor: SecondInteractor, view: SecondWeatherView, router: SecondRouter) {
         self.interactor = interactor
         self.view = view
+        self.router =  router
     }
     
     func viewDidLoad() {

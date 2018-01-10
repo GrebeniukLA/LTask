@@ -14,10 +14,11 @@ protocol SecondConfigurator {
 
 class SecondConfiguratorImplementation: SecondConfigurator {
     func configure(controller: SecondViewController) {
+        let router = SecondRouterImplementation(viewController: controller)
         let weatherService = FirstServiceImplementation()
         let locationManager = LocationManagerImplementation.sharedManager
         let interactor = SecondInteractorImplementation(weatherService: weatherService, locationManager: locationManager)
-        let presenter = SecondPresenterImplementation(interactor: interactor, view: controller)
+        let presenter = SecondPresenterImplementation(interactor: interactor, view: controller, router: router)
         controller.presenter = presenter
     }
 }

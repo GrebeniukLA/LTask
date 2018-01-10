@@ -26,6 +26,7 @@ protocol FirstPresenter {
 class FirstPresenterImplementation: NSObject, FirstPresenter {
     fileprivate let interactor: FirstInteractor
     fileprivate weak var view: FirstView?
+    internal let router: FirstRouter
 //    var fetch: NSFetchedResultsController<CDForecastWeather>!
 //    internal var weather: ForecastWeather? {
 //        didSet {
@@ -34,7 +35,8 @@ class FirstPresenterImplementation: NSObject, FirstPresenter {
 //        }
 //    }
     
-    init(interactor: FirstInteractor, view: FirstView) {
+    init(interactor: FirstInteractor, view: FirstView, router: FirstRouter) {
+        self.router = router
         self.interactor = interactor
         self.view = view
     }
