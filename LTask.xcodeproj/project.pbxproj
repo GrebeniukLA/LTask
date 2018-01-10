@@ -19,6 +19,20 @@
 		222BAD8120062363003D91C3 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222BAD8020062363003D91C3 /* UIViewController.swift */; };
 		222BAD83200623AF003D91C3 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222BAD82200623AF003D91C3 /* Error.swift */; };
 		222BAD8620062414003D91C3 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222BAD8520062414003D91C3 /* LocationManager.swift */; };
+		222BAD8A20062626003D91C3 /* MainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222BAD8920062626003D91C3 /* MainService.swift */; };
+		222BAD8D20062691003D91C3 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222BAD8C20062691003D91C3 /* NetworkManager.swift */; };
+		222BAD9220062767003D91C3 /* FirstRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222BAD9120062767003D91C3 /* FirstRequestBuilder.swift */; };
+		222BAD952006278C003D91C3 /* FirstResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222BAD942006278C003D91C3 /* FirstResponseParser.swift */; };
+		222BAD97200627D8003D91C3 /* SecondRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222BAD96200627D8003D91C3 /* SecondRequestBuilder.swift */; };
+		222BAD9A200627FE003D91C3 /* SecondResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222BAD99200627FE003D91C3 /* SecondResponseParser.swift */; };
+		222BAD9C2006288A003D91C3 /* FirstConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222BAD9B2006288A003D91C3 /* FirstConfigurator.swift */; };
+		222BADA0200628CA003D91C3 /* FirstPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222BAD9F200628CA003D91C3 /* FirstPresenter.swift */; };
+		222BADA2200628EB003D91C3 /* FirstInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222BADA1200628EB003D91C3 /* FirstInteractor.swift */; };
+		222BADA520062913003D91C3 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222BADA320062913003D91C3 /* FirstViewController.swift */; };
+		222BADA620062913003D91C3 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 222BADA420062913003D91C3 /* FirstViewController.xib */; };
+		222BADAD20062B80003D91C3 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 222BADAB20062B80003D91C3 /* Model.xcdatamodeld */; };
+		222BADB120062BAF003D91C3 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222BADB020062BAF003D91C3 /* CoreDataManager.swift */; };
+		222BADB320062BCC003D91C3 /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222BADB220062BCC003D91C3 /* CoreDataService.swift */; };
 		652999AEC53B26082A8BBF2F /* Pods_LTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74466DC0E7F593A18273E26F /* Pods_LTask.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +51,20 @@
 		222BAD8020062363003D91C3 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		222BAD82200623AF003D91C3 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		222BAD8520062414003D91C3 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		222BAD8920062626003D91C3 /* MainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainService.swift; sourceTree = "<group>"; };
+		222BAD8C20062691003D91C3 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		222BAD9120062767003D91C3 /* FirstRequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstRequestBuilder.swift; sourceTree = "<group>"; };
+		222BAD942006278C003D91C3 /* FirstResponseParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstResponseParser.swift; sourceTree = "<group>"; };
+		222BAD96200627D8003D91C3 /* SecondRequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondRequestBuilder.swift; sourceTree = "<group>"; };
+		222BAD99200627FE003D91C3 /* SecondResponseParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondResponseParser.swift; sourceTree = "<group>"; };
+		222BAD9B2006288A003D91C3 /* FirstConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstConfigurator.swift; sourceTree = "<group>"; };
+		222BAD9F200628CA003D91C3 /* FirstPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPresenter.swift; sourceTree = "<group>"; };
+		222BADA1200628EB003D91C3 /* FirstInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstInteractor.swift; sourceTree = "<group>"; };
+		222BADA320062913003D91C3 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		222BADA420062913003D91C3 /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		222BADAC20062B80003D91C3 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		222BADB020062BAF003D91C3 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		222BADB220062BCC003D91C3 /* CoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
 		74466DC0E7F593A18273E26F /* Pods_LTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B78F54E71FFCA3E5CA99306 /* Pods-LTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LTask/Pods-LTask.debug.xcconfig"; sourceTree = "<group>"; };
 		CEE16550929AC86A213157DB /* Pods-LTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-LTask/Pods-LTask.release.xcconfig"; sourceTree = "<group>"; };
@@ -89,6 +117,9 @@
 				222BAD77200621AA003D91C3 /* View */,
 				222BAD702006213C003D91C3 /* SupportingFiles */,
 				222BAD84200623BD003D91C3 /* Model */,
+				222BAD8E2006269B003D91C3 /* Network */,
+				222BAD9E2006289D003D91C3 /* Scenes */,
+				222BADAE20062B84003D91C3 /* Storage */,
 			);
 			path = LTask;
 			sourceTree = "<group>";
@@ -168,8 +199,83 @@
 			isa = PBXGroup;
 			children = (
 				222BAD872006241C003D91C3 /* Location */,
+				222BAD8B2006262B003D91C3 /* Main */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		222BAD8B2006262B003D91C3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				222BAD8920062626003D91C3 /* MainService.swift */,
+				222BAD932006276A003D91C3 /* First */,
+				222BAD98200627DC003D91C3 /* Second */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		222BAD8E2006269B003D91C3 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				222BAD8C20062691003D91C3 /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		222BAD932006276A003D91C3 /* First */ = {
+			isa = PBXGroup;
+			children = (
+				222BAD9120062767003D91C3 /* FirstRequestBuilder.swift */,
+				222BAD942006278C003D91C3 /* FirstResponseParser.swift */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+		222BAD98200627DC003D91C3 /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				222BAD96200627D8003D91C3 /* SecondRequestBuilder.swift */,
+				222BAD99200627FE003D91C3 /* SecondResponseParser.swift */,
+			);
+			path = Second;
+			sourceTree = "<group>";
+		};
+		222BAD9D20062891003D91C3 /* First */ = {
+			isa = PBXGroup;
+			children = (
+				222BAD9B2006288A003D91C3 /* FirstConfigurator.swift */,
+				222BADA1200628EB003D91C3 /* FirstInteractor.swift */,
+				222BAD9F200628CA003D91C3 /* FirstPresenter.swift */,
+				222BADA320062913003D91C3 /* FirstViewController.swift */,
+				222BADA420062913003D91C3 /* FirstViewController.xib */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+		222BAD9E2006289D003D91C3 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				222BAD9D20062891003D91C3 /* First */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		222BADAE20062B84003D91C3 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				222BADAF20062B95003D91C3 /* DatabaseModel */,
+				222BADAB20062B80003D91C3 /* Model.xcdatamodeld */,
+				222BADB020062BAF003D91C3 /* CoreDataManager.swift */,
+				222BADB220062BCC003D91C3 /* CoreDataService.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		222BADAF20062B95003D91C3 /* DatabaseModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DatabaseModel;
 			sourceTree = "<group>";
 		};
 		28C27540D0D3C810FB35B4E1 /* Pods */ = {
@@ -244,6 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				222BAD6920062014003D91C3 /* LaunchScreen.storyboard in Resources */,
+				222BADA620062913003D91C3 /* FirstViewController.xib in Resources */,
 				222BAD6620062014003D91C3 /* Assets.xcassets in Resources */,
 				222BAD742006218C003D91C3 /* FirstTableViewCell.xib in Resources */,
 				222BAD6420062014003D91C3 /* Main.storyboard in Resources */,
@@ -315,14 +422,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				222BAD952006278C003D91C3 /* FirstResponseParser.swift in Sources */,
+				222BAD9A200627FE003D91C3 /* SecondResponseParser.swift in Sources */,
 				222BAD7F20062332003D91C3 /* UITableViewCell.swift in Sources */,
 				222BAD732006218C003D91C3 /* FirstTableViewCell.swift in Sources */,
+				222BAD8D20062691003D91C3 /* NetworkManager.swift in Sources */,
+				222BAD9220062767003D91C3 /* FirstRequestBuilder.swift in Sources */,
+				222BADA2200628EB003D91C3 /* FirstInteractor.swift in Sources */,
+				222BADB320062BCC003D91C3 /* CoreDataService.swift in Sources */,
+				222BAD97200627D8003D91C3 /* SecondRequestBuilder.swift in Sources */,
 				222BAD8120062363003D91C3 /* UIViewController.swift in Sources */,
+				222BADA520062913003D91C3 /* FirstViewController.swift in Sources */,
 				222BAD7C20062301003D91C3 /* UITableView.swift in Sources */,
 				222BAD8620062414003D91C3 /* LocationManager.swift in Sources */,
+				222BAD8A20062626003D91C3 /* MainService.swift in Sources */,
 				222BAD79200622A3003D91C3 /* Typealias.swift in Sources */,
 				222BAD83200623AF003D91C3 /* Error.swift in Sources */,
 				222BAD5F20062014003D91C3 /* AppDelegate.swift in Sources */,
+				222BAD9C2006288A003D91C3 /* FirstConfigurator.swift in Sources */,
+				222BADAD20062B80003D91C3 /* Model.xcdatamodeld in Sources */,
+				222BADB120062BAF003D91C3 /* CoreDataManager.swift in Sources */,
+				222BADA0200628CA003D91C3 /* FirstPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +629,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		222BADAB20062B80003D91C3 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				222BADAC20062B80003D91C3 /* Model.xcdatamodel */,
+			);
+			currentVersion = 222BADAC20062B80003D91C3 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 222BAD5320062014003D91C3 /* Project object */;
 }
