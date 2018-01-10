@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SecondViewController" customModule="LTask" customModuleProvider="target">
+            <connections>
+                <outlet property="temperatureLabel" destination="tBd-35-ndF" id="zPa-7D-elQ"/>
+                <outlet property="view" destination="QaF-yc-WT8" id="WBr-wC-uHh"/>
+                <outlet property="windImageView" destination="Ib7-nL-eaU" id="lfm-N2-yan"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="QaF-yc-WT8">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tBd-35-ndF">
+                    <rect key="frame" x="179.5" y="60" width="16" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon" translatesAutoresizingMaskIntoConstraints="NO" id="Ib7-nL-eaU">
+                    <rect key="frame" x="179.5" y="335.5" width="16" height="16"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Ib7-nL-eaU" firstAttribute="centerX" secondItem="TQz-em-TgV" secondAttribute="centerX" id="Frw-ic-0id"/>
+                <constraint firstItem="tBd-35-ndF" firstAttribute="top" secondItem="TQz-em-TgV" secondAttribute="top" constant="40" id="XIh-fZ-qcf"/>
+                <constraint firstItem="Ib7-nL-eaU" firstAttribute="centerY" secondItem="TQz-em-TgV" secondAttribute="centerY" id="dco-19-m2Q"/>
+                <constraint firstItem="tBd-35-ndF" firstAttribute="centerX" secondItem="TQz-em-TgV" secondAttribute="centerX" id="iz8-rT-41M"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="TQz-em-TgV"/>
+            <point key="canvasLocation" x="33.5" y="54.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Icon" width="16" height="16"/>
+    </resources>
+</document>

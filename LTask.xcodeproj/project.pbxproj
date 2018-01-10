@@ -33,6 +33,11 @@
 		222BADAD20062B80003D91C3 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 222BADAB20062B80003D91C3 /* Model.xcdatamodeld */; };
 		222BADB120062BAF003D91C3 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222BADB020062BAF003D91C3 /* CoreDataManager.swift */; };
 		222BADB320062BCC003D91C3 /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222BADB220062BCC003D91C3 /* CoreDataService.swift */; };
+		222BADB520062CC9003D91C3 /* SecondConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222BADB420062CC9003D91C3 /* SecondConfigurator.swift */; };
+		222BADB820062CEF003D91C3 /* SecondPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222BADB720062CEF003D91C3 /* SecondPresenter.swift */; };
+		222BADBA20062D07003D91C3 /* SecondInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222BADB920062D07003D91C3 /* SecondInteractor.swift */; };
+		222BADBD20062D2C003D91C3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222BADBB20062D2C003D91C3 /* SecondViewController.swift */; };
+		222BADBE20062D2C003D91C3 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 222BADBC20062D2C003D91C3 /* SecondViewController.xib */; };
 		652999AEC53B26082A8BBF2F /* Pods_LTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74466DC0E7F593A18273E26F /* Pods_LTask.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +70,11 @@
 		222BADAC20062B80003D91C3 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		222BADB020062BAF003D91C3 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		222BADB220062BCC003D91C3 /* CoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
+		222BADB420062CC9003D91C3 /* SecondConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondConfigurator.swift; sourceTree = "<group>"; };
+		222BADB720062CEF003D91C3 /* SecondPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPresenter.swift; sourceTree = "<group>"; };
+		222BADB920062D07003D91C3 /* SecondInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondInteractor.swift; sourceTree = "<group>"; };
+		222BADBB20062D2C003D91C3 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		222BADBC20062D2C003D91C3 /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 		74466DC0E7F593A18273E26F /* Pods_LTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B78F54E71FFCA3E5CA99306 /* Pods-LTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LTask/Pods-LTask.debug.xcconfig"; sourceTree = "<group>"; };
 		CEE16550929AC86A213157DB /* Pods-LTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-LTask/Pods-LTask.release.xcconfig"; sourceTree = "<group>"; };
@@ -256,6 +266,7 @@
 			isa = PBXGroup;
 			children = (
 				222BAD9D20062891003D91C3 /* First */,
+				222BADB620062CCD003D91C3 /* Second */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -276,6 +287,18 @@
 			children = (
 			);
 			path = DatabaseModel;
+			sourceTree = "<group>";
+		};
+		222BADB620062CCD003D91C3 /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				222BADB420062CC9003D91C3 /* SecondConfigurator.swift */,
+				222BADB720062CEF003D91C3 /* SecondPresenter.swift */,
+				222BADB920062D07003D91C3 /* SecondInteractor.swift */,
+				222BADBB20062D2C003D91C3 /* SecondViewController.swift */,
+				222BADBC20062D2C003D91C3 /* SecondViewController.xib */,
+			);
+			path = Second;
 			sourceTree = "<group>";
 		};
 		28C27540D0D3C810FB35B4E1 /* Pods */ = {
@@ -351,6 +374,7 @@
 			files = (
 				222BAD6920062014003D91C3 /* LaunchScreen.storyboard in Resources */,
 				222BADA620062913003D91C3 /* FirstViewController.xib in Resources */,
+				222BADBE20062D2C003D91C3 /* SecondViewController.xib in Resources */,
 				222BAD6620062014003D91C3 /* Assets.xcassets in Resources */,
 				222BAD742006218C003D91C3 /* FirstTableViewCell.xib in Resources */,
 				222BAD6420062014003D91C3 /* Main.storyboard in Resources */,
@@ -423,11 +447,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				222BAD952006278C003D91C3 /* FirstResponseParser.swift in Sources */,
+				222BADB820062CEF003D91C3 /* SecondPresenter.swift in Sources */,
 				222BAD9A200627FE003D91C3 /* SecondResponseParser.swift in Sources */,
+				222BADBD20062D2C003D91C3 /* SecondViewController.swift in Sources */,
 				222BAD7F20062332003D91C3 /* UITableViewCell.swift in Sources */,
 				222BAD732006218C003D91C3 /* FirstTableViewCell.swift in Sources */,
 				222BAD8D20062691003D91C3 /* NetworkManager.swift in Sources */,
 				222BAD9220062767003D91C3 /* FirstRequestBuilder.swift in Sources */,
+				222BADB520062CC9003D91C3 /* SecondConfigurator.swift in Sources */,
+				222BADBA20062D07003D91C3 /* SecondInteractor.swift in Sources */,
 				222BADA2200628EB003D91C3 /* FirstInteractor.swift in Sources */,
 				222BADB320062BCC003D91C3 /* CoreDataService.swift in Sources */,
 				222BAD97200627D8003D91C3 /* SecondRequestBuilder.swift in Sources */,
@@ -582,7 +610,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 97UB3D6K38;
-				INFOPLIST_FILE = LTask/Info.plist;
+				INFOPLIST_FILE = LTask/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lg.LTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -598,7 +626,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 97UB3D6K38;
-				INFOPLIST_FILE = LTask/Info.plist;
+				INFOPLIST_FILE = LTask/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lg.LTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
